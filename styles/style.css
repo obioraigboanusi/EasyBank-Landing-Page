@@ -21,10 +21,6 @@ a {
   color: hsl(0, 0%, 98%);
 }
 
-/* ul {
-  display: flex;
-} */
-
 li {
   list-style: none;
 }
@@ -295,6 +291,11 @@ footer svg>g>path {
 .f-row {
   display: flex;
   flex-direction: row;
+}
+.sr-only{
+  visibility: hidden;
+  height: 0;
+  width: 0;
 }
 
 @media screen and (min-width: 768px) {
